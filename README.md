@@ -72,15 +72,15 @@ After completing the installation steps, access the application at [http://127.0
 *The Main Page displays a list of movies available for rating. Users can search for specific movies using the search bar.*
 
 #### Recommendation Page
-![Recommendation Page](images/the_recommendation_page.png)
+![Recommendation Page](images/the_recommndation_page.png)
 *The Recommendation Page shows personalized movie recommendations based on user ratings and preferences.*
 
 #### Rating Page
-![Rating Page](images/the_search_movie_with_rating.png)
+![Rating Page](images/the_search_movie_with_to_give_rating.png)
 *The Rating Page allows users to rate a specific movie. The URL includes the movie ID, e.g., [http://127.0.0.1:8000/1/](http://127.0.0.1:8000/1/).*
 
 #### Sign Up Page
-![Sign Up Page](images/the_signup_page.png)
+![Sign Up Page](images/the_singup_page.png)
 *The Sign Up Page allows new users to create an account by providing a username, email address, and password.*
 
 ## Contributing

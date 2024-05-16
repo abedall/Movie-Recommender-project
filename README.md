@@ -64,23 +64,23 @@ After completing the installation steps, access the application at [http://127.0
 ### Screenshots
 
 #### Login Page
-![Login Page](images/the login page.png)
+![Login Page](images/the_login_page.png)
 *The Login Page allows users to log in with their username and password.*
 
 #### Main Page
-![Main Page](the main web page.png)
+![Main Page](images/the_main_web_page.png)
 *The Main Page displays a list of movies available for rating. Users can search for specific movies using the search bar.*
 
 #### Recommendation Page
-![Recommendation Page](the recommndation page.png)
+![Recommendation Page](images/the_recommendation_page.png)
 *The Recommendation Page shows personalized movie recommendations based on user ratings and preferences.*
 
 #### Rating Page
-![Rating Page](the search movie_with to give rating.png)
+![Rating Page](images/the_search_movie_with_rating.png)
 *The Rating Page allows users to rate a specific movie. The URL includes the movie ID, e.g., [http://127.0.0.1:8000/1/](http://127.0.0.1:8000/1/).*
 
 #### Sign Up Page
-![Sign Up Page](the singup page.png)
+![Sign Up Page](images/the_signup_page.png)
 *The Sign Up Page allows new users to create an account by providing a username, email address, and password.*
 
 ## Contributing
@@ -102,10 +102,8 @@ To contribute to the Movie Recommender System, follow these steps:
     ```
 6. **Submit a Pull Request**: Go to the original repository and create a pull request with your changes.
 
-
 ### Code of Conduct
 All contributors are expected to adhere to the project's Code of Conduct, which promotes a welcoming and inclusive environment.
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-

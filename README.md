@@ -64,8 +64,7 @@ After completing the installation steps, access the application at [http://127.0
 ### Screenshots
 
 #### Login Page
-![Login Page](Movie-Recommender-project/Movie-Recommender-System-master
-/the login page.png)
+![Login Page](images/the login page.png)
 *The Login Page allows users to log in with their username and password.*
 
 #### Main Page

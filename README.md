@@ -68,7 +68,7 @@ After completing the installation steps, access the application at [http://127.0
 *The Login Page allows users to log in with their username and password.*
 
 #### Main Page
-![Main Page](the main web page.png)
+![Main Page]("images/the main web page.png")
 *The Main Page displays a list of movies available for rating. Users can search for specific movies using the search bar.*
 
 #### Recommendation Page

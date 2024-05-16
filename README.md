@@ -102,6 +102,7 @@ To contribute to the Movie Recommender System, follow these steps:
     ```
 6. **Submit a Pull Request**: Go to the original repository and create a pull request with your changes.
 
+
 ### Code of Conduct
 All contributors are expected to adhere to the project's Code of Conduct, which promotes a welcoming and inclusive environment.
 

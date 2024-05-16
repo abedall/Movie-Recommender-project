@@ -1,86 +1,110 @@
-# Movie-Recommender-System
-A Web Base user-item Movie Recommendation Engine using Collaborative Filtering By matrix factorizations algorithm and
-The recommendation based on the underlying idea that is if two persons both liked certian common movies,then the movies that one person has liked that the other person has not yet watched can be recommended to him.   
-### Screenshot
+# Movie Recommender System
 
-###### Home page
-![home](https://user-images.githubusercontent.com/20842692/45380125-941d7500-b61f-11e8-852d-c09e9586b35b.png)
+## Description
+The Movie Recommender System is a web application designed to provide personalized movie recommendations to users. Utilizing Django as the web framework and machine learning algorithms, this application ensures accurate recommendations based on user preferences and viewing history.
 
-###### Recommendation page
-![recom](https://user-images.githubusercontent.com/20842692/45380167-b57e6100-b61f-11e8-8ec0-e07c26daa4a3.jpg)
+## Features
+- **User Authentication**: Users can register, log in, and log out.
+- **Movie Recommendations**: Personalized movie recommendations based on user ratings and preferences.
+- **Movie Search**: Search functionality to find movies by title.
+- **Admin Interface**: Admin panel to manage movies and user accounts.
 
-###### Rating page
-![rate](https://user-images.githubusercontent.com/20842692/45380186-be6f3280-b61f-11e8-8ad6-8b967d1cba1a.png)
+## Technologies Used
+- **Languages**:
+  - Python
+  - HTML/CSS
+  - JavaScript
+- **Libraries**:
+  - Django
+  - pandas
+  - numpy
+  - scikit-learn
+  - scipy
 
-### Technologies Used
+## Setup and Installation
 
-#### Web Technologies
-Html , Css , JavaScript , Bootstrap , Django
+### Prerequisites
+- Python 3.x
+- pip (Python package installer)
 
-#### Machine Learning Library In Python3
-Numpy , Pandas , Scipy
+### Installation Steps
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/<your-username>/Movie-Recommender-System.git
+    ```
+2. **Navigate to the Project Directory**:
+    ```bash
+    cd Movie-Recommender-System-master
+    ```
+3. **Create and Activate Virtual Environment**:
+    ```bash
+    python -m venv env
+    source env/bin/activate  # On Windows use `env\Scripts\activate`
+    ```
+4. **Install Required Packages**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+5. **Navigate to the Source Directory**:
+    ```bash
+    cd src
+    ```
+6. **Apply Migrations**:
+    ```bash
+    python manage.py migrate
+    ```
+7. **Run the Development Server**:
+    ```bash
+    python manage.py runserver
+    ```
 
-#### Database
-SQLite
+## Usage
+After completing the installation steps, access the application at [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
-##### Requirements
-```
-python 3.6
+### Screenshots
 
-pip3
+#### Login Page
+![Login Page](the login page.png)
+*The Login Page allows users to log in with their username and password.*
 
-virtualenv
-```
-##### Setup to run
+#### Main Page
+![Main Page](the main web page.png)
+*The Main Page displays a list of movies available for rating. Users can search for specific movies using the search bar.*
 
-Extract zip file in your computer
+#### Recommendation Page
+![Recommendation Page](the recommndation page.png)
+*The Recommendation Page shows personalized movie recommendations based on user ratings and preferences.*
 
-Open terminal/cmd promt
+#### Rating Page
+![Rating Page](the search movie_with to give rating.png)
+*The Rating Page allows users to rate a specific movie. The URL includes the movie ID, e.g., [http://127.0.0.1:8000/1/](http://127.0.0.1:8000/1/).*
 
-Goto that Path
+#### Sign Up Page
+![Sign Up Page](the singup page.png)
+*The Sign Up Page allows new users to create an account by providing a username, email address, and password.*
 
-Example
+## Contributing
+To contribute to the Movie Recommender System, follow these steps:
 
-```
-cd ~/Destop/Movie-Recommender-System
-```
-Create a new virtual environment on that directory
+1. **Fork the Repository**: Create a copy of the repository on your GitHub account.
+2. **Create a New Branch**: Make a new branch for your feature or bugfix.
+    ```bash
+    git checkout -b feature-name
+    ```
+3. **Make Changes**: Implement your feature or bugfix.
+4. **Commit Changes**: Commit your changes with a descriptive message.
+    ```bash
+    git commit -m "Description of changes"
+    ```
+5. **Push Changes**: Push your changes to your forked repository.
+    ```bash
+    git push origin feature-name
+    ```
+6. **Submit a Pull Request**: Go to the original repository and create a pull request with your changes.
 
-```
-virtualenv .
-```
+### Code of Conduct
+All contributors are expected to adhere to the project's Code of Conduct, which promotes a welcoming and inclusive environment.
 
-Activate Your Virtual Environment
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-for Linux
-```
-source bin/activate
-```
-for Windows
-```
-cd Scripts
-then
-activate
-```
-To install Dependencies
-
-```
-pip install -r requirements.txt
-```
-
-### Creating Local Server
-
-Goto src directory, example
-
-```
-cd ../Movie-Recommender-System/src
-```
-To run
-```
-python manage.py runserver
-```
-Now open your browser and go to this address
-```
-http://127.0.0.1:8000
-```
-Thank you for visiting my repository.
